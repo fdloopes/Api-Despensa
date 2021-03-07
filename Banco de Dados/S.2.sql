@@ -24,13 +24,13 @@ INSERT INTO Products(name,idCategory,updatedAt) VALUES ('Papel Higiênico 4 rolo
 INSERT INTO Products(name,idCategory,updatedAt) VALUES ('Presunto 200g',6,now());
 
 /* INSERÇÃO TABELA USERS */
-INSERT INTO Users(id,name,password,email,updatedAt) VALUES (1,'Renato Medeiros',1234,'renato@gmail.com',now());
-INSERT INTO Users(id,name,password,email,updatedAt) VALUES (2,'Juca da Silva',1234,'juca@gmail.com',now());
-INSERT INTO Users(id,name,password,email,updatedAt) VALUES (3,'Daniel Gonçalves',1234,'daniel@gmail.com',now());
-INSERT INTO Users(id,name,password,email,updatedAt) VALUES (4,'Gabriel Pinheiro',1234,'gabriel@gmail.com',now());
-INSERT INTO Users(id,name,password,email,updatedAt) VALUES (5,'Derpino Ficticio',1234,'derpino@gmail.com',now());
-INSERT INTO Users(id,name,password,email,updatedAt) VALUES (6,'Felipe Lopes',1234,'fdloopes@gmail.com',now());
-INSERT INTO Users(id,name,password,email,updatedAt) VALUES (7,'Solange Dias',1234,'solange@gmail.com',now());
+INSERT INTO Users(name,lastName,password,email,updatedAt) VALUES ('Renato','Medeiros',1234,'renato@gmail.com',now());
+INSERT INTO Users(name,lastName,password,email,updatedAt) VALUES ('Juca','Da Silva',1234,'juca@gmail.com',now());
+INSERT INTO Users(name,lastName,password,email,updatedAt) VALUES ('Daniel','Gonçalves',1234,'daniel@gmail.com',now());
+INSERT INTO Users(name,lastName,password,email,updatedAt) VALUES ('Gabriel','Pinheiro',1234,'gabriel@gmail.com',now());
+INSERT INTO Users(name,lastName,password,email,updatedAt) VALUES ('Derpino','Ficticio',1234,'derpino@gmail.com',now());
+INSERT INTO Users(name,lastName,password,email,updatedAt) VALUES ('Felipe','Lopes',1234,'ffffpes@gmail.com',now());
+INSERT INTO Users(name,lastName,password,email,updatedAt) VALUES ('Solange','Dias',1234,'solange@gmail.com',now());
 
 /* INSERÇÃO TABELA PANTRIES */
 INSERT INTO Pantries(name,shared,idOwner,updatedAt) VALUES ('Despensa',false,1,now());
