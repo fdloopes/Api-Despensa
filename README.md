@@ -1,4 +1,4 @@
-<h1>Implementação API para Despensa<h1>
+<h1>Implementação API para Despensa</h1>
 
 - O repositório possui a API implementada e os scripts de criação do banco de dados MySQL.
 - Repositório destinado ao armazenado de uma API desenvolvida em Node.js por estudo com a proposta de gerenciar uma aplicação de uma despensa.
