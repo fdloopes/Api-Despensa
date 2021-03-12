@@ -1,8 +1,8 @@
 module.exports = {
-    username: 'A3j73K',
-    password: 'Z0D90UmVbDIII4pXP4nh',
-    database: 'innodb',
-    host: 'basedepensa.c1j16rfvrggb.sa-east-1.rds.amazonaws.com',
+    username: 'user',
+    password: '123456',
+    database: 'baseDespensa',
+    host: '127.0.0.1',
     dialect: 'mysql',
     port: 3306,
     define:{
