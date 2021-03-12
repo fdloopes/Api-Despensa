@@ -15,7 +15,7 @@
 No trecho acima estão as entradas que necessitam de configuração de acordo com o ambiente, sendo que o database informado necessita ser criado previamente. Os campos user e password são as credenciais de acesso ao banco.<br/>
 - Para criação do banco de dados é possível utilizar os scripts incluídos na pasta `Banco de Dados`. A pasta possui scripts do S.1 ao S.5.
 > Obs¹: para facilitar é interessante abrir um terminal para acessar o BD dentro do diretório onde estão os scripts.</br>
-- Após estar logado no ambiente(MySQL) basta utilizar o comando: source "script a executar".</br>
+- Após estar logado no ambiente(MySQL) basta utilizar o comando: `source "script a executar"`.</br>
 - Importante: O script S.1.sql é o de criação do BD e das tabelas, de maneira que deve ser o primeiro a ser executado, seguido do script S.2.sql que é o responsável por popular as tabelas.<br/>
 Com as tabelas criadas podemos colocar a API em execução através do comando: `npm run dev`.<br/>
 > Obs²: A API está definida para responder as solicitações na porta 3001, ou seja, localhost:3001 ou 127.0.0.1:3001, a porta pode ser editada dentro do arquivo ´server.js´.<br/>
